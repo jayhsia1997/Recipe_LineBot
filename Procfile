@@ -1,1 +1,1 @@
-web: gunicorn Recipe_LineBot.wsgi
+web: gunicorn --pythonpath Recipe_LineBot Recipe_LineBot.wsgi
