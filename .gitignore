@@ -1,0 +1,8 @@
+line_secret_key.json
+.vscode
+
+# __pycache__
+Fit_Foodie/__pycache__
+Fit_Foodie/migrations/__pycache__
+linebot_func/__pycache__
+Recipe_LineBot/__pycache__
