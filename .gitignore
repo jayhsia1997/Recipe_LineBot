@@ -1,5 +1,7 @@
 line_secret_key.json
 .vscode
+/venv
+/.idea
 
 # __pycache__
 Fit_Foodie/__pycache__

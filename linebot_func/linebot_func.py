@@ -36,7 +36,7 @@ def sendButton(event):
     try:
         message = linebot_models.TemplateSendMessage(
             alt_text="按鈕樣板",
-            template=ButtonsTemplate(
+            template=linebot_models.ButtonsTemplate(
                 thumbnail_image_url="https://i.imgur.com/4QfKuz1.png",  # 顯示的圖片
                 title="按鈕樣版示範",  # 主標題
                 text="請選擇：",  # 副標題
@@ -138,7 +138,7 @@ def sendQuickreply(event):
     try:
         message = linebot_models.TextSendMessage(
             text="請選擇今日推薦套餐",
-            quick_reply=QuickReply(
+            quick_reply=linebot_models.QuickReply(
                 items=[
                     linebot_models.QuickReplyButton(
                         action=linebot_models.MessageAction(label="牛肉套餐", text="牛肉套餐")
